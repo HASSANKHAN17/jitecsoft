@@ -1,0 +1,47 @@
+@import "../../App.scss";
+
+
+.mob1{
+    img{
+        height: 120%;
+        width: 120%;
+        transform: rotate(-30deg);
+    }
+  
+}
+
+.mobile{
+    .sec{
+        padding: 3%;
+    }
+}
+.wsection2{
+   margin: 0 20%;
+   
+   .blocks{
+       margin-top: 10%;
+   }
+}
+
+.wsection3{
+ .row{
+     margin: 0 20%;
+     .cards{
+         margin-top: 10%;
+     }
+ }
+}
+
+@media (max-width: 576px) {
+.wsection4{
+    h2{
+        font-size: 2.5em;
+    }
+    .row{
+        h2{
+            font-size: 1.4em;
+        }
+    }
+}
+}
+

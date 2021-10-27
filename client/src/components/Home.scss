@@ -1,0 +1,307 @@
+@import "../App.scss";
+
+#video{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+.firstsection{
+    height: 130vh;
+    width: 100vw;
+    h2,h1,h3,p{
+        font-family: $primary-font;
+        text-align: center;
+    }
+    h2{
+        font-weight: lighter;
+        font-size: 2em;
+        margin-top: 8%;
+    }
+    h1{
+        font-size: 6em;
+        font-weight: 800;
+    }
+    h3{
+        font-weight: lighter;
+        font-size: 2em;
+        margin-top: 10%;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 1.2em;
+        margin:auto 25%;
+        text-transform: lowercase;
+
+    }
+}
+.secondsection{
+    // background: url("./Images/backgrounds/sectionsecondback.png");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+        text-align: center;
+        h1{
+            font-family: $primary-font;
+            font-weight: 200;
+            font-size: 3em;
+        }
+        hr{
+            height: 1px;
+            background: -webkit-linear-gradient(#15f700, #00a31e);
+        border: none;
+        margin:3% 35%;
+        }
+        p{
+            margin:0 10%;
+            line-height: 2;
+            font-size: 1.2em;
+        }
+        h2{
+            font-family: $primary-font;
+            font-weight: 100;
+            font-size: 2.2em;
+            background: -webkit-linear-gradient(#15f700, #00a31e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+        .twoparas{
+            margin:7% 2%;
+        }
+      
+}
+hr{
+    height: 1px;
+    background: -webkit-linear-gradient(#15f700, #00a31e);
+border: none;
+margin:3% 35%;
+}
+.thirdsection{
+    margin-top: 15%;
+
+    text-align: center;
+
+    h1{
+        font-family: $primary-font;
+        font-weight: 200;
+        font-size: 3em;
+    }
+    h2{
+        text-align: center;
+        font-weight: 200;
+    }
+    p{
+        margin:0 15%;
+            line-height: 2;
+            font-size: 1.2em;
+    }
+    .cards{
+        margin:5% 8%;
+        h3{
+            font-weight: 500;
+            font-size: 2.0em;
+            font-family: $primary-font;
+        }
+        p{
+            text-align: center;
+        }
+        .singlecard{
+            margin:0 auto;
+            border-radius: 2px;
+            padding: 4% 1%;
+            box-shadow: 1px 4px 20px 10px rgba(13, 109, 0, 0.2), 0 6px 20px 0 rgba(21, 180, 0, 0.2);
+            h3{
+                margin-bottom: 10%;
+            }
+            
+        }
+    }
+}
+
+
+.fourthsection{
+    text-align: center;
+    h1{
+        font-family: $primary-font;
+            font-weight: 200;
+            font-size: 3em;
+            margin: 5% 10% 0 10%;
+            padding-top: 10%;
+    }
+    h2{
+        text-align: center;
+        font-weight: 200;
+    }
+    .imghome{
+        width: 70%;
+        border: 1px solid #00a31e;
+    }
+    .headofrow{
+        background-image: url("./Images/backgrounds/sectionfourthback.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .row{
+        margin: 5% 10%;
+        text-align: left;
+      
+        h3{
+            font-family: $primary-font;
+            font-size: 2em;
+        }
+        p{
+            line-height: 2;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.fifthdiv{
+    margin-top: 15%;
+    h1{
+        text-align: center;
+        font-family: $primary-font;
+        font-weight: 200;
+        font-size: 3em;
+
+    }
+    .row{
+        margin:5% 32%;
+        text-align: center;
+        .circle{
+            h3{
+        font-weight: 300;
+        font-family: $primary-font;
+
+            }
+            background:radial-gradient(ellipse at bottom,#12d800ab,#008b1a85);
+            border-radius: 50%;
+            padding: 10% 0;
+            margin: 0 auto;
+            box-shadow: 1px 4px 30px 20px rgba(47, 114, 38, 0.384);
+        }
+        
+    }
+    p{
+        text-align: center;
+        margin: auto 20%;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    h3{
+        text-align: center;
+        font-weight: 200;
+        font-family: $primary-font;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .firstsection{
+        height:80vh;
+        h1{
+            font-size: 2.5em;
+            padding-top: 25%;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        p{
+            margin:auto 3%;
+        }
+        h3{
+            font-size: 1.7em;
+        }
+    }
+
+    .secondsection{
+        h1{
+            font-size: 2em !important;
+        }
+        h2{
+            margin-top: 20%;
+        }
+        P{
+            margin: 0 5%;
+            font-size: 1em;
+        }
+    }
+    .thirdsection{
+        h1{
+            font-size: 3em;
+        }
+        h2{
+            font-size: 1.2em;
+        }
+        p{
+            font-size: 1em;
+            margin:0 1%;
+        }
+        .cards{
+            margin-top: 20%;
+            .singlecard{
+                margin-top: 25%;
+                
+            }
+            button{
+                margin: 10% auto;
+            }
+        }
+
+    }
+    .fourthsection{
+        h1{
+            font-size: 1.5em;
+        }
+        h2{
+            font-size: 1.5em;
+            margin-bottom: 15%;
+        }
+        .headofrow{
+            .row{
+                margin:20% 0;
+                text-align: center;
+                h3{
+                    margin-top: 5%;
+                }
+                p{
+                    margin:0 0%;
+                }
+            }
+        }
+        .row{
+            margin: 5% 4%;
+        }
+    }
+    .fifthdiv{
+        h1{
+            font-size: 1.5em;
+            font-weight: bolder !important;
+        }
+        .row{
+            .circle{
+                border-radius: 50%;
+                height: 15vh;
+                h3{
+                    margin-top: 25%;
+                }
+                margin-top: 10%;
+            }
+        }
+        p{
+            margin:10% 3%;
+        }
+        h3{
+            font-size: 1.1em;
+        }
+    }
+
+}

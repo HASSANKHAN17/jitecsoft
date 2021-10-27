@@ -1,0 +1,98 @@
+@import "../../App.scss";
+
+.contactus{
+    h1{
+        text-align: center;
+        font-size: 3em;
+        font-weight: lighter;
+        font-family: $primary-font;
+        margin: 1% 25%;
+    }
+}
+.errorname{
+    text-align: left;
+    margin-top: 10px;
+    color:rgb(201, 0, 0);
+}
+.inputdiv{
+text-align: center;
+margin: 3% 30%;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+.greeninput{
+    background-color: transparent !important;
+    border: 1px solid $basePrimary-color;
+    outline: none;
+    color:rgba(255, 255, 255, 0.925);
+    padding: 3% 10px;
+    width: 100%;
+    margin-top: 1%;
+}
+.errorinput{
+    background-color: transparent !important;
+    border: 1px solid red;
+    outline: none;
+    color:rgba(255, 255, 255, 0.925);
+    padding: 3% 10px;
+    width: 100%;
+    margin-top: 1%;
+
+}
+.greeninput:focus{
+    border: 1px solid $primary-color;
+}
+
+.greeninputtextarea{
+    background-color: transparent !important;
+    border: 1px solid $basePrimary-color;
+    outline: none;
+    color:rgba(255, 255, 255, 0.925);
+    padding: 3% 10px;
+    width: 100%;
+    margin-top: 1%;
+}
+.errorinputtextarea{
+    background-color: transparent !important;
+    border: 1px solid red;
+    outline: none;
+    color:rgba(255, 255, 255, 0.925);
+    padding: 3% 10px;
+    width: 100%;
+    margin-top: 1%;
+}
+.greeninputtextarea:focus{
+    border: 1px solid $primary-color;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+.contactus{
+
+    h1{
+        font-size: 1.5em;
+        margin:5% 0;
+        margin-bottom: 10%;
+    }
+    .giveus{
+        margin-top: 10%;
+    }
+    button{
+        margin-top: 10%;
+    }
+}
+.inputdiv{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+}

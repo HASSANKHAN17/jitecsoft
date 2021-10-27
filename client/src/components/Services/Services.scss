@@ -1,0 +1,19 @@
+@import "../../App.scss";
+
+.servicesdiv{
+    ul{
+        padding:10px;
+        margin-left: 7%;
+       li{
+           h1{
+               font-family: $primary-font;
+               font-weight: 200;
+               color:#fff
+           }
+           margin: 2% 0;
+       }
+       li::marker{
+           color:green
+       }
+    }
+}

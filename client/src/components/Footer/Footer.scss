@@ -1,0 +1,72 @@
+@import "../../App.scss";
+
+.footer{
+    margin:10% auto 0 auto;
+    padding-bottom: 5%;
+    h1{
+        font-family: $primary-font;
+        font-weight: 200;
+        font-size: 3em;
+    }
+    .subdivs{
+        margin: 0 auto;
+    }
+    .iconspan{
+        margin: 0 2%;
+    }
+    .iconspan:hover{
+        transition: .2s;
+        color: $basePrimary-color;
+    }
+    .linkdiv{
+        .footerlinks{
+            margin-top: 5%;
+            display: block;
+            color: $tertiary-color;
+            padding-bottom: 5px;
+            font-family: $primary-font;
+            font-size: 1.2em;
+        }
+        .footerlinks:hover{
+            color: $basePrimary-color;
+            transition: .2s;
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .footer{
+        margin-top: 20%;
+        .subdivs{
+            h1{
+                font-size: 2.5em;
+            }
+            
+        }
+        .linkdiv{
+            margin:10% auto;
+        }
+        .copy{
+            margin:10% 0 !important;
+            text-align: center;
+            
+        }  
+    }
+h1,p{
+    text-align: center;
+}
+
+.icondiv,.linkdiv{
+    text-align: center;
+}
+
+
+}
